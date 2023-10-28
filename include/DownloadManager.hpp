@@ -1,16 +1,17 @@
-// DownloadManager.h
-
 #pragma once
 
 #include "DownloadTask.hpp"
+#include "HttpDownloader.hpp"
+
 #include <vector>
-//test
+
 class DownloadManager {
 public:
     DownloadManager();
 
-    // Add methods to manage download tasks
+    void add_download(const std::string& url, const std::string& local_file_path);
+    void start_downloads(HttpDownloader& http_downloader);
 
 private:
-    std::vector<DownloadTask> downloadTasks;
+    std::vector<DownloadTask> _download_tasks;
 };

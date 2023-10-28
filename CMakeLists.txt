@@ -22,6 +22,7 @@ include_directories(include)
 set(LIBRARY_SOURCES
     src/DownloadManager.cpp
     src/DownloadTask.cpp
+    src/HttpDownloader.cpp
     # Add more source files here
 )
 
