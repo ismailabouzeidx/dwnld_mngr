@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,liblib_dwnld_mngr.so -o liblib_dwnld_mngr.so CMakeFiles/lib_dwnld_mngr.dir/src/DownloadManager.cpp.o CMakeFiles/lib_dwnld_mngr.dir/src/DownloadTask.cpp.o  /usr/lib/x86_64-linux-gnu/libcurl.so 

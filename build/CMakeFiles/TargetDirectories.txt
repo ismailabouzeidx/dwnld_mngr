@@ -1,0 +1,4 @@
+/home/ismail/dwnld_mngr/build/CMakeFiles/rebuild_cache.dir
+/home/ismail/dwnld_mngr/build/CMakeFiles/edit_cache.dir
+/home/ismail/dwnld_mngr/build/CMakeFiles/main.dir
+/home/ismail/dwnld_mngr/build/CMakeFiles/dwnld_mngr.dir

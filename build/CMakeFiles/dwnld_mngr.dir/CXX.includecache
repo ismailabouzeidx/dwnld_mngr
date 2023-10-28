@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DownloadManager.hpp
+DownloadTask.hpp
+../include/DownloadTask.hpp
+vector
+-
+
+../include/DownloadTask.hpp
+string
+-
+
+/home/ismail/dwnld_mngr/src/DownloadManager.cpp
+DownloadManager.hpp
+-
+

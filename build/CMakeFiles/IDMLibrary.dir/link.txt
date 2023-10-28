@@ -1,0 +1,2 @@
+/usr/bin/ar qc libIDMLibrary.a  CMakeFiles/IDMLibrary.dir/src/DownloadManager.cpp.o CMakeFiles/IDMLibrary.dir/src/DownloadTask.cpp.o
+/usr/bin/ranlib libIDMLibrary.a

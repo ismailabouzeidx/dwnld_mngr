@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/ismail/dwnld_mngr/build",
+  "command": "/usr/bin/c++   -I/home/ismail/dwnld_mngr/include  -g   -std=gnu++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ismail/dwnld_mngr/src/main.cpp",
+  "file": "/home/ismail/dwnld_mngr/src/main.cpp"
+},
+{
+  "directory": "/home/ismail/dwnld_mngr/build",
+  "command": "/usr/bin/c++  -Ddwnld_mngr_EXPORTS -I/home/ismail/dwnld_mngr/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/dwnld_mngr.dir/src/DownloadManager.cpp.o -c /home/ismail/dwnld_mngr/src/DownloadManager.cpp",
+  "file": "/home/ismail/dwnld_mngr/src/DownloadManager.cpp"
+},
+{
+  "directory": "/home/ismail/dwnld_mngr/build",
+  "command": "/usr/bin/c++  -Ddwnld_mngr_EXPORTS -I/home/ismail/dwnld_mngr/include  -g -fPIC   -std=gnu++17 -o CMakeFiles/dwnld_mngr.dir/src/DownloadTask.cpp.o -c /home/ismail/dwnld_mngr/src/DownloadTask.cpp",
+  "file": "/home/ismail/dwnld_mngr/src/DownloadTask.cpp"
+}
+]

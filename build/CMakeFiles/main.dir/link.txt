@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/src/main.cpp.o  -o main  -Wl,-rpath,/home/ismail/dwnld_mngr/build libdwnld_mngr.so /usr/lib/x86_64-linux-gnu/libcurl.so 
