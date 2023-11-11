@@ -4,6 +4,7 @@
 #include <iostream>
 #include <curl/curl.h>
 #include <fstream> 
+#include <stdexcept>
 
 HttpDownloader::HttpDownloader() {
     curl_global_init(CURL_GLOBAL_DEFAULT);
@@ -39,10 +40,10 @@ bool HttpDownloader::download_file(const std::string& url, const std::string& lo
         CURLcode res = curl_easy_perform(curl);
 
         if (res != CURLE_OK) {
-            std::cerr << "Error: " << curl_easy_strerror(res) << std::endl;
+            std::string error_message = "Error: " + std::string(curl_easy_strerror(res));
             curl_easy_cleanup(curl);
             output_file.close(); // Close the output file
-            return false;
+            throw std::runtime_error(error_message);
         }
 
         curl_easy_cleanup(curl);

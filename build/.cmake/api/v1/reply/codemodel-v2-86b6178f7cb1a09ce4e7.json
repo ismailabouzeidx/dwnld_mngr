@@ -40,14 +40,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "dwnld_mngr::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dwnld_mngr-Debug-735dd21d67f171dcf5ed.json",
+					"jsonFile" : "target-dwnld_mngr-Debug-957f7456b77bff980028.json",
 					"name" : "dwnld_mngr",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-7444ffcf7453624db10d.json",
+					"jsonFile" : "target-main-Debug-b7c26d550792ce04979f.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}

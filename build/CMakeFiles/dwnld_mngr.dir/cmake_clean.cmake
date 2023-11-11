@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dwnld_mngr.dir/src/DownloadManager.cpp.o"
   "CMakeFiles/dwnld_mngr.dir/src/DownloadTask.cpp.o"
+  "CMakeFiles/dwnld_mngr.dir/src/HttpDownloader.cpp.o"
   "libdwnld_mngr.pdb"
   "libdwnld_mngr.so"
 )

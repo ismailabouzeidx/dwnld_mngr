@@ -6,7 +6,29 @@
 
 #IncludeRegexTransform: 
 
+../include/DownloadManager.hpp
+DownloadTask.hpp
+../include/DownloadTask.hpp
+HttpDownloader.hpp
+../include/HttpDownloader.hpp
+vector
+-
+
+../include/DownloadTask.hpp
+string
+-
+HttpDownloader.hpp
+../include/HttpDownloader.hpp
+
+../include/HttpDownloader.hpp
+string
+-
+
 /home/ismail/dwnld_mngr/src/main.cpp
+HttpDownloader.hpp
+/home/ismail/dwnld_mngr/src/HttpDownloader.hpp
+DownloadManager.hpp
+/home/ismail/dwnld_mngr/src/DownloadManager.hpp
 iostream
 -
 

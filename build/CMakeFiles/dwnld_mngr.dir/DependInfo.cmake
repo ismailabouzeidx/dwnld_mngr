@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ismail/dwnld_mngr/src/DownloadManager.cpp" "/home/ismail/dwnld_mngr/build/CMakeFiles/dwnld_mngr.dir/src/DownloadManager.cpp.o"
   "/home/ismail/dwnld_mngr/src/DownloadTask.cpp" "/home/ismail/dwnld_mngr/build/CMakeFiles/dwnld_mngr.dir/src/DownloadTask.cpp.o"
+  "/home/ismail/dwnld_mngr/src/HttpDownloader.cpp" "/home/ismail/dwnld_mngr/build/CMakeFiles/dwnld_mngr.dir/src/HttpDownloader.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

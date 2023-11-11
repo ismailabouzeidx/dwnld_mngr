@@ -9,14 +9,40 @@
 ../include/DownloadManager.hpp
 DownloadTask.hpp
 ../include/DownloadTask.hpp
+HttpDownloader.hpp
+../include/HttpDownloader.hpp
 vector
 -
 
 ../include/DownloadTask.hpp
 string
 -
+HttpDownloader.hpp
+../include/HttpDownloader.hpp
+
+../include/HttpDownloader.hpp
+string
+-
 
 /home/ismail/dwnld_mngr/src/DownloadManager.cpp
 DownloadManager.hpp
+/home/ismail/dwnld_mngr/src/DownloadManager.hpp
+iostream
+-
+
+/home/ismail/dwnld_mngr/src/DownloadTask.cpp
+DownloadTask.hpp
+/home/ismail/dwnld_mngr/src/DownloadTask.hpp
+
+/home/ismail/dwnld_mngr/src/HttpDownloader.cpp
+HttpDownloader.hpp
+/home/ismail/dwnld_mngr/src/HttpDownloader.hpp
+iostream
+-
+curl/curl.h
+-
+fstream
+-
+stdexcept
 -
 

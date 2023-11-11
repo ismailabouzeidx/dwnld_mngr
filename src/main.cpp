@@ -9,7 +9,7 @@ int main() {
     HttpDownloader http_downloader;
 
     // Add download tasks
-    download_manager.add_download("https://github.com/IsmailAbouZeid-Github/dwnld_mngr/blob/main/CMakeLists.txt", "/home/ismail/file.txt");
+    download_manager.add_download("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4", "/home/ismail/file.mp4");
 
     // Start the downloads
     download_manager.start_downloads(http_downloader);

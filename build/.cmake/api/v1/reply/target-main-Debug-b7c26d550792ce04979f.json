@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 38,
+				"line" : 39,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 39,
+				"line" : 40,
 				"parent" : 0
 			},
 			{
@@ -49,10 +49,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g  "
-				},
-				{
-					"fragment" : "-std=gnu++17"
+					"fragment" : "-g   -std=gnu++17"
 				}
 			],
 			"includes" : 
@@ -86,20 +83,7 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "",
-				"role" : "flags"
-			},
-			{
-				"fragment" : "-Wl,-rpath,/home/ismail/dwnld_mngr/build",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 2,
-				"fragment" : "libdwnld_mngr.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libcurl.so",
+				"fragment" : "-Wl,-rpath,/home/ismail/dwnld_mngr/build libdwnld_mngr.so /usr/lib/x86_64-linux-gnu/libcurl.so",
 				"role" : "libraries"
 			}
 		],
